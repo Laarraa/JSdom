@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Dom</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="Knappar">
+        <h1 id="heading">Min rubrik</h1>
+
+        <br><br><br>
+        
+        <!-- 2 Knappar som visar ny bild och och gömmer bild -->
+        <button class="vBild" onclick="VisaNyBild()">Visa ny bild</button>
+        <button class="gBild" onclick="GomBild()">Göm bild</button>
+        <button class="gBild" onclick="VisaBild()">Visa bild igen</button>
+
+        <!-- 2 Knappar som ändrar rubrik och och visar tid-->
+        <button class="aRubrik" onclick="AndraRubrik()">Ändra rubrik</button>
+        <button class="vTid"onclick="VisaTid()">Visa tid</button>
+        <p id="tid"></p>
+        <!-- 2 Knappar som ändrar bakgrundsfärg och och visar ett hemligt meddelnde -->
+        <button class="aBakgrund" onclick="AndraBakgrund()">Ändra bakgrundsfärg</button>
+        <button class="hMedd" onclick="HemligtMeddelande()">Visa hemligt meddelande</button>
+        <p id="meddelande"></p>
+
+        <!--Bild som visar ginger katt -->
+        <img id="Img" src="gingor cat.jpg">
+    </div>
+    
+</body>
+</html>
